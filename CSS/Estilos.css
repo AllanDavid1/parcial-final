@@ -1,0 +1,121 @@
+header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.section2__container,
+.section3__container {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.section2__img,
+.section3__img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.section2__img:hover,
+.section3__img:hover {
+  transform: scale(1.05);
+}
+
+.section2__h1--posicion,
+.section3__h1--posicion {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.section2__item,
+.section3__item {
+  flex: 0 0 20%;
+  margin: 25px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section2__button,
+.section3__button {
+  background-color: #16631d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.section2__button:hover,
+.section3__button:hover {
+  background-color: #c1d6ec;
+}
+
+.footer-container {
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+}
+
+.footer-container footer {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+#boton-redireccionar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#boton-redireccionar:hover {
+  background-color: #0056b3;
+}
